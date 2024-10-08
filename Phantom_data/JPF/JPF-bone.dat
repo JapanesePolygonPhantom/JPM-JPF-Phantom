@@ -1,0 +1,23 @@
+Mass fractions of active and inactive marrows, endosteum and hard bone in the JPF phantom.                                                        
+
+Anatomical bone region        Active marrow   Inactive marrow   Endosteum   Hard bone    Total 
+Humeri, upper half            0.0808          0.3078            0.0273      0.5840       1.0000
+Humeri, lower half            0.0000          0.2667            0.0524      0.6810       1.0000
+Ulnae and radii               0.0000          0.3233            0.0573      0.6194       1.0000
+Wrist and hand bones          0.0000          0.4093            0.0880      0.5026       1.0000
+Clavicles                     0.1788          0.1344            0.0472      0.6396       1.0000
+Cranium                       0.0451          0.1668            0.0420      0.7461       1.0000
+Femora, upper half            0.1024          0.2192            0.0551      0.6233       1.0000
+Femora, lower half            0.0000          0.3683            0.0410      0.5907       1.0000
+Tibiae, fibiae, patellae      0.0000          0.3732            0.0764      0.5504       1.0000
+Ankle and foot bones          0.0000          0.3991            0.0476      0.5533       1.0000
+Mandible                      0.0403          0.1154            0.0097      0.8346       1.0000
+Pelvis                        0.2651          0.1299            0.0631      0.5419       1.0000
+Ribs                          0.2688          0.1651            0.0436      0.5225       1.0000
+Scapulae                      0.1147          0.2184            0.0340      0.6330       1.0000
+Cervical vertebrae            0.3048          0.0310            0.0784      0.5858       1.0000
+Thoracic vertebrae            0.4351          0.0000            0.0652      0.4997       1.0000
+Lumbar vertebrae              0.3497          0.0932            0.0582      0.4989       1.0000
+Sacrum                        0.3045          0.2156            0.0553      0.4245       1.0000
+Sternum                       0.3609          0.1675            0.0565      0.4151       1.0000
+Os hyoideum                   0.1693          0.2185            0.0000      0.6123       1.0000
