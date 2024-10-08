@@ -1,0 +1,2724 @@
+$
+$ *******************************************************************************
+$  Elemental composition and mass ftaction file for dose calculation using
+$  the Japanese Polygon mesh-type Female of adult Japanese (JPF) on the Particle
+$  and Heavy Ion Transport code System (PHITS). 
+$ *******************************************************************************
+$ 
+$ 100_Adrenal, left, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Adrenal, left.
+MAT[100] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt100
+$ 
+$ 200_Adrenal, right, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Adrenal, right.
+MAT[200] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt200
+$ 
+$ 300_ET1, left, 8um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET1, left, 8um.
+MAT[300] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt300
+$ 
+$ 301_ET1, left, 40um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET1, left, 40um.
+MAT[301] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt301
+$ 
+$ 302_ET1, left, 50um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET1, left, 50um.
+MAT[302] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt302
+$ 
+$ 303_ET1, left, surface, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET1, left, surface.
+MAT[303] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt303
+$ 
+$ 304_ET1, right, 8um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET1, right, 8um.
+MAT[304] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt304
+$ 
+$ 305_ET1, right, 40um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET1, right, 40um.
+MAT[305] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt305
+$ 
+$ 306_ET1, right, 50um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET1, right, 50um.
+MAT[306] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt306
+$ 
+$ 307_ET1, right, surface, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET1, right, surface.
+MAT[307] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt307
+$ 
+$ 400_ET2, 0um, density:1.000 g/cm3 
+$ No.22 tissue medium is assigned into ET2, 0um.
+MAT[400] 
+  1000   -0.11200  ! H 
+  8000   -0.88800  ! O 
+mt400
+$  
+$ 401_ET2, 40um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET2, 40um.
+MAT[401] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt401
+$ 
+$ 402_ET2, 50um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET2, 50um.
+MAT[402] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt402
+$ 
+$ 403_ET2, 55um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET2, 55um.
+MAT[403] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt403
+$  
+$ 404_ET2, 65um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET2, 65um.
+MAT[404] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt404
+$ 
+$ 405_ET2, surface, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into ET2, surface.
+MAT[405] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt405
+$ 
+$ 500_Oral mucosa, tongue, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Oral mucosa, tongue.
+MAT[500] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt500
+$  
+$ 501_Oral mucosa. mouth floor, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Oral mucosa. mouth floor.
+MAT[501] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt501
+$  
+$ 600_Oral mucosa. upper lips and cheeks, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Oral mucosa. upper lips and cheeks.
+MAT[600] 
+  1000   -0.510200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt600
+$  
+$ 601_Oral mucosa, lower lips and cheeks, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Oral mucosa, lower lips and cheeks.
+MAT[601] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt601
+$ 
+$ 700_Trachea, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Trachea.
+MAT[700] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt700
+$
+$ 800_BB1, -6um, density:1.000 g/cm3 
+$ No.22 tissue medium is assigned into BB1, -6um.
+MAT[800] 
+  1000   -0.11200  ! H 
+  8000   -0.88800  ! O 
+mt800
+$
+$ 801_BB1, 0um, density:1.204E-03 g/cm3
+$ No.22 tissue medium is assigned into BB1, 0um.
+MAT[801] 
+  6000   -0.00012  ! C
+  7000   -0.75527  ! N 
+  8000   -0.23178  ! O 
+  18000  -0.01283  ! Ar 
+mt801
+$ 
+$ 802_BB1, 10um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into BB1, 10um.
+MAT[802] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt802
+$ 
+$ 803_BB1, 35um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into BB1, 35um.
+MAT[803] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt803
+$ 
+$ 804_BB1, 40um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into BB1, 40um.
+MAT[804] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt804
+$ 
+$ 805_BB1, 50um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into BB1, 50um.
+MAT[805] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt805
+$ 
+$ 806_BB1, 60um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into BB1, 60um.
+MAT[806] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt806
+$ 
+$ 807_BB1, 70um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into BB1, 70um.
+MAT[807] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt807
+$ 
+$ 808_BB1, surface, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into BB1, surface.
+MAT[808] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt808
+$
+$ 1400_Humeri, upper, left, density:1.3551 g/cm3
+$ No.1 tissue medium is assigned into Humeri, upper, left.
+MAT[1400]
+  1000   -0.0719590  ! H
+  6000   -0.2963725  ! C
+  7000   -0.0338231  ! N
+  8000   -0.4048624  ! O
+  11000  -0.0008022  ! Na
+  12000  -0.0013214  ! Mg
+  15000  -0.0631388  ! P
+  16000  -0.0019776  ! S
+  20000  -0.1257384  ! Ca
+  26000  -0.0000045  ! Fe
+mt1400
+$
+$ 1401_Humeri, upper, right, density:1.3551 g/cm3
+$ No.1 tissue medium is assigned into Humeri, upper, right.
+MAT[1401]
+  1000   -0.0719590  ! H
+  6000   -0.2963725  ! C
+  7000   -0.0338231  ! N
+  8000   -0.4048624  ! O
+  11000  -0.0008022  ! Na
+  12000  -0.0013214  ! Mg
+  15000  -0.0631388  ! P
+  16000  -0.0019776  ! S
+  20000  -0.1257384  ! Ca
+  26000  -0.0000045  ! Fe
+mt1401
+$
+$ 1700_Humeri, lower, left, density:1.4596 g/cm3
+$ No.2 tissue medium is assigned into Humeri, lower, left.
+MAT[1700]
+  1000   -0.0643293  ! H
+  6000   -0.2494988  ! C
+  7000   -0.0363476  ! N
+  8000   -0.4176033  ! O
+  11000  -0.0005549  ! Na
+  12000  -0.0015916  ! Mg
+  15000  -0.0760506  ! P
+  16000  -0.0023236  ! S
+  20000  -0.1516980  ! Ca
+  26000  -0.0000024  ! Fe
+mt1700
+$
+$ 1701_Humeri, lower, right, density:1.4596 g/cm3
+$ No.2 tissue medium is assigned into Humeri, lower, right.
+MAT[1701]
+  1000   -0.0643293  ! H
+  6000   -0.2494988  ! C
+  7000   -0.0363476  ! N
+  8000   -0.4176033  ! O
+  11000  -0.0005549  ! Na
+  12000  -0.0015916  ! Mg
+  15000  -0.0760506  ! P
+  16000  -0.0023236  ! S
+  20000  -0.1516980  ! Ca
+  26000  -0.0000024  ! Fe
+mt1701
+$
+$ 1900_Ulnae and radii, left, density:1.4079 g/cm3
+$ No.3 tissue medium is assigned into Ulnae and radii, left.
+MAT[1900]
+  1000   -0.0679622  ! H
+  6000   -0.2718167  ! C
+  7000   -0.0351460  ! N
+  8000   -0.4115382  ! O
+  11000  -0.0006726  ! Na
+  12000  -0.0014624  ! Mg
+  15000  -0.0699026  ! P
+  16000  -0.0021588  ! S
+  20000  -0.1393377  ! Ca
+  26000  -0.0000027  ! Fe
+mt1900
+$
+$ 1901_Ulnae and radii, right, density:1.4079 g/cm3
+$ No.3 tissue medium is assigned into Ulnae and radii, right.
+MAT[1901]
+  1000   -0.0679622  ! H
+  6000   -0.2718167  ! C
+  7000   -0.0351460  ! N
+  8000   -0.4115382  ! O
+  11000  -0.0006726  ! Na
+  12000  -0.0014624  ! Mg
+  15000  -0.0699026  ! P
+  16000  -0.0021588  ! S
+  20000  -0.1393377  ! Ca
+  26000  -0.0000027  ! Fe
+mt1901
+$
+$ 2200_Wrists and hand bones, left, density:1.3360 g/cm3
+$ No.4 tissue medium is assigned into Wrists and hand bones, left.
+MAT[2200]
+  1000   -0.0734882  ! H
+  6000   -0.3057648  ! C
+  7000   -0.0333184  ! N
+  8000   -0.4023128  ! O
+  11000  -0.0008518  ! Na
+  12000  -0.0012656  ! Mg
+  15000  -0.0605509  ! P
+  16000  -0.0019082  ! S
+  20000  -0.1205362  ! Ca
+  26000  -0.0000032  ! Fe
+mt2200
+$
+$ 2201_Wrists and hand bones, right, density:1.3360 g/cm3
+$ No.4 tissue medium is assigned into Wrists and hand bones, right.
+MAT[2201]
+  1000   -0.0734882  ! H
+  6000   -0.3057648  ! C
+  7000   -0.0333184  ! N
+  8000   -0.4023128  ! O
+  11000  -0.0008518  ! Na
+  12000  -0.0012656  ! Mg
+  15000  -0.0605509  ! P
+  16000  -0.0019082  ! S
+  20000  -0.1205362  ! Ca
+  26000  -0.0000032  ! Fe
+mt2201
+$
+$ 2400_Clavicles, left, density:1.4230 g/cm3
+$ No.5 tissue medium is assigned into Clavicles, left.
+MAT[2400]
+  1000   -0.0668709  ! H
+  6000   -0.2651115  ! C
+  7000   -0.0355072  ! N
+  8000   -0.4133605  ! O
+  11000  -0.0006373  ! Na
+  12000  -0.0015011  ! Mg
+  15000  -0.0717496  ! P
+  16000  -0.0022083  ! S
+  20000  -0.1430512  ! Ca
+  26000  -0.0000025  ! Fe
+mt2400
+$
+$ 2401_Clavicles, right, density:1.4230 g/cm3
+$ No.5 tissue medium is assigned into Clavicles, right.
+MAT[2401]
+  1000   -0.0668709  ! H
+  6000   -0.2651115  ! C
+  7000   -0.0355072  ! N
+  8000   -0.4133605  ! O
+  11000  -0.0006373  ! Na
+  12000  -0.0015011  ! Mg
+  15000  -0.0717496  ! P
+  16000  -0.0022083  ! S
+  20000  -0.1430512  ! Ca
+  26000  -0.0000025  ! Fe
+mt2401
+$
+$ 2600_Cranium, density:1.5151 g/cm3
+$ No.6 tissue medium is assigned into Cranium.
+MAT[2600]
+  1000   -0.0607006  ! H
+  6000   -0.2272040  ! C
+  7000   -0.0375483  ! N
+  8000   -0.4236625  ! O
+  11000  -0.0004373  ! Na
+  12000  -0.0017204  ! Mg
+  15000  -0.0821920  ! P
+  16000  -0.0024880  ! S
+  20000  -0.1640454  ! Ca
+  26000  -0.0000016  ! Fe
+mt2600
+$
+$ 2900_Femora, upper, left, density:1.4129 g/cm3
+$ No.7 tissue medium is assigned into Femora, upper, left.
+MAT[2900]
+  1000   -0.0675978  ! H
+  6000   -0.2695794  ! C
+  7000   -0.0352662  ! N
+  8000   -0.4121455  ! O
+  11000  -0.0006608  ! Na
+  12000  -0.0014757  ! Mg
+  15000  -0.0705192  ! P
+  16000  -0.0021754  ! S
+  20000  -0.1405769  ! Ca
+  26000  -0.0000032  ! Fe
+mt2900
+$
+$ 2901_Femora, upper, right, density:1.4129 g/cm3
+$ No.7 tissue medium is assigned into Femora, upper, right.
+MAT[2901]
+  1000   -0.0675978  ! H
+  6000   -0.2695794  ! C
+  7000   -0.0352662  ! N
+  8000   -0.4121455  ! O
+  11000  -0.0006608  ! Na
+  12000  -0.0014757  ! Mg
+  15000  -0.0705192  ! P
+  16000  -0.0021754  ! S
+  20000  -0.1405769  ! Ca
+  26000  -0.0000032  ! Fe
+mt2901
+$
+$ 3200_Femora, lower, left, density:1.3692 g/cm3
+$ No.8 tissue medium is assigned into Femora, lower, left.
+MAT[3200]
+  1000   -0.0708553  ! H
+  6000   -0.2895922  ! C
+  7000   -0.0341883  ! N
+  8000   -0.4067053  ! O
+  11000  -0.0007664  ! Na
+  12000  -0.0013605  ! Mg
+  15000  -0.0650066  ! P
+  16000  -0.0020277  ! S
+  20000  -0.1294934  ! Ca
+  26000  -0.0000043  ! Fe
+mt3200
+$
+$ 3201_Femora, lower, right, density:1.3692 g/cm3
+$ No.8 tissue medium is assigned into Femora, lower, right.
+MAT[3201]
+  1000   -0.0708553  ! H
+  6000   -0.2895922  ! C
+  7000   -0.0341883  ! N
+  8000   -0.4067053  ! O
+  11000  -0.0007664  ! Na
+  12000  -0.0013605  ! Mg
+  15000  -0.0650066  ! P
+  16000  -0.0020277  ! S
+  20000  -0.1294934  ! Ca
+  26000  -0.0000043  ! Fe
+mt3201
+$
+$ 3400_Tibiae, fibulae, and patellae, left, density:1.3652 g/cm3
+$ No.9 tissue medium is assigned into Tibiae, fibulae, and patellae, left.
+MAT[3400]
+  1000   -0.0711679  ! H
+  6000   -0.2915124  ! C
+  7000   -0.0340849  ! N
+  8000   -0.4061834  ! O
+  11000  -0.0007766  ! Na
+  12000  -0.0013494  ! Mg
+  15000  -0.0644775  ! P
+  16000  -0.0020136  ! S
+  20000  -0.1284300  ! Ca
+  26000  -0.0000044  ! Fe
+mt3400
+$
+$ 3401_Tibiae, fibulae, and patellae, right, density:1.3652 g/cm3
+$ No.9 tissue medium is assigned into Tibiae, fibulae, and patellae, right.
+MAT[3401]
+  1000   -0.0711679  ! H
+  6000   -0.2915124  ! C
+  7000   -0.0340849  ! N
+  8000   -0.4061834  ! O
+  11000  -0.0007766  ! Na
+  12000  -0.0013494  ! Mg
+  15000  -0.0644775  ! P
+  16000  -0.0020136  ! S
+  20000  -0.1284300  ! Ca
+  26000  -0.0000044  ! Fe
+mt3401
+$
+$ 3700_Ankles and foot, left, density:1.3441 g/cm3
+$ No.10 tissue medium is assigned into Ankles and foot, left.
+MAT[3700]
+  1000   -0.0728281  ! H
+  6000   -0.3017108  ! C
+  7000   -0.0335365  ! N
+  8000   -0.4034151  ! O
+  11000  -0.0008304  ! Na
+  12000  -0.0012892  ! Mg
+  15000  -0.0616678  ! P
+  16000  -0.0019378  ! S
+  20000  -0.1227815  ! Ca
+  26000  -0.0000029  ! Fe
+mt3700
+$
+$ 3701_Ankles and foot, right, density:1.3441 g/cm3
+$ No.10 tissue medium is assigned into Ankles and foot, right.
+MAT[3701]
+  1000   -0.0728281  ! H
+  6000   -0.3017108  ! C
+  7000   -0.0335365  ! N
+  8000   -0.4034151  ! O
+  11000  -0.0008304  ! Na
+  12000  -0.0012892  ! Mg
+  15000  -0.0616678  ! P
+  16000  -0.0019378  ! S
+  20000  -0.1227815  ! Ca
+  26000  -0.0000029  ! Fe
+mt3701
+$
+$ 3900_Mandible, density:1.5745 g/cm3
+$ No.11 tissue medium is assigned into Mandible.
+MAT[3900]
+  1000   -0.0571073  ! H
+  6000   -0.2051286  ! C
+  7000   -0.0387372  ! N
+  8000   -0.4296626  ! O
+  11000  -0.0003208  ! Na
+  12000  -0.0018478  ! Mg
+  15000  -0.0882729  ! P
+  16000  -0.0026510  ! S
+  20000  -0.1762712  ! Ca
+  26000  -0.0000008  ! Fe
+mt3900
+$
+$ 4100_Pelvis, density:1.3558 g/cm3
+$ No.12 tissue medium is assigned into Pelvis.
+MAT[4100]
+  1000   -0.0719057  ! H
+  6000   -0.2960434  ! C
+  7000   -0.0338414  ! N
+  8000   -0.4049539  ! O
+  11000  -0.0008005  ! Na
+  12000  -0.0013223  ! Mg
+  15000  -0.0632288  ! P
+  16000  -0.0019800  ! S
+  20000  -0.1259204  ! Ca
+  26000  -0.0000035  ! Fe
+mt4100
+$
+$ 4300_Rib, left, No.01, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.01.
+MAT[4300]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4300
+$
+$ 4301_Rib, right, No.01, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.01.
+MAT[4301]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4301
+$
+$ 4302_Rib, left, No.02, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.02.
+MAT[4302]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4302
+$
+$ 4303_Rib, right, No.02, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.02.
+MAT[4303]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4303
+$
+$ 4304_Rib, left, No.03, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.03.
+MAT[4304]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4304
+$
+$ 4305_Rib, right, No.03, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.03.
+MAT[4305]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4305
+$
+$ 4306_Rib, left, No.04, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.04.
+MAT[4306]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4306
+$
+$ 4307_Rib, right, No.04, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.04.
+MAT[4307]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4307
+$
+$ 4308_Rib, left, No.05, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.05.
+MAT[4308]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4308
+$
+$ 4309_Rib, right, No.05, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.05.
+MAT[4309]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4309
+$
+$ 4310_Rib, left, No.06, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.06.
+MAT[4310]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4310
+$
+$ 4311_Rib, right, No.06, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.06.
+MAT[4311]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4311
+$
+$ 4312_Rib, left, No.07, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.07.
+MAT[4312]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4312
+$
+$ 4313_Rib, right, No.07, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.07.
+MAT[4313]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4313
+$
+$ 4314_Rib, left, No.08, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.08.
+MAT[4314]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4314
+$
+$ 4315_Rib, right, No.08, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.08.
+MAT[4315]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4315
+$
+$ 4316_Rib, left, No.09, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.09.
+MAT[4316]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4316
+$
+$ 4317_Rib, right, No.09, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.09.
+MAT[4317]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4317
+$
+$ 4318_Rib, left, No.10, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.10.
+MAT[4318]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4318
+$
+$ 4319_Rib, right, No.10, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.10.
+MAT[4319]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4319
+$
+$ 4320_Rib, left, No.11, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.11.
+MAT[4320]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4320
+$
+$ 4321_Rib, right, No.11, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.11.
+MAT[4321]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4321
+$
+$ 4322_Rib, left, No.12, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, left, No.12.
+MAT[4322]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4322
+$
+$ 4323_Rib, right, No.12, density:1.3249 g/cm3
+$ No.13 tissue medium is assigned into Rib, right, No.12.
+MAT[4323]
+  1000   -0.0743901  ! H
+  6000   -0.3113083  ! C
+  7000   -0.0330191  ! N
+  8000   -0.4008049  ! O
+  11000  -0.0008810  ! Na
+  12000  -0.0012342  ! Mg
+  15000  -0.0590239  ! P
+  16000  -0.0018677  ! S
+  20000  -0.1174663  ! Ca
+  26000  -0.0000044  ! Fe
+mt4323
+$
+$ 4500_Scapulae, left, density:1.4032 g/cm3
+$ No.14 tissue medium is assigned into Scapulae, left.
+MAT[4500]
+  1000   -0.0683049  ! H
+  6000   -0.2739194  ! C
+  7000   -0.0350334  ! N
+  8000   -0.4109687  ! O
+  11000  -0.0006837  ! Na
+  12000  -0.0014494  ! Mg
+  15000  -0.0693229  ! P
+  16000  -0.0021430  ! S
+  20000  -0.1381730  ! Ca
+  26000  -0.0000017  ! Fe
+mt4500
+$
+$ 4501_Scapulae, right, density:1.4032 g/cm3
+$ No.14 tissue medium is assigned into Scapulae, right.
+MAT[4501]
+  1000   -0.0683049  ! H
+  6000   -0.2739194  ! C
+  7000   -0.0350334  ! N
+  8000   -0.4109687  ! O
+  11000  -0.0006837  ! Na
+  12000  -0.0014494  ! Mg
+  15000  -0.0693229  ! P
+  16000  -0.0021430  ! S
+  20000  -0.1381730  ! Ca
+  26000  -0.0000017  ! Fe
+mt4501
+$
+$ 4700_Cervical spine, density:1.4073 g/cm3
+$ No.15 tissue medium is assigned into Cervical spine.
+MAT[4700]
+  1000   -0.0680079  ! H
+  6000   -0.2720955  ! C
+  7000   -0.0351316  ! N
+  8000   -0.4114651  ! O
+  11000  -0.0006741  ! Na
+  12000  -0.0014598  ! Mg
+  15000  -0.0698254  ! P
+  16000  -0.0021562  ! S
+  20000  -0.1391831  ! Ca
+  26000  -0.0000012  ! Fe
+mt4700
+$
+$ 4900_Thoracic spine, density:1.3290 g/cm3
+$ No.16 tissue medium is assigned into Thoracic spine.
+MAT[4900]
+  1000   -0.0740557  ! H
+  6000   -0.3092515  ! C
+  7000   -0.0331305  ! N
+  8000   -0.4013645  ! O
+  11000  -0.0008702  ! Na
+  12000  -0.0012456  ! Mg
+  15000  -0.0595903  ! P
+  16000  -0.0018829  ! S
+  20000  -0.1186052  ! Ca
+  26000  -0.0000038  ! Fe
+mt4900
+$
+$ 5100_Lumbar spine, density:1.3203 g/cm3
+$ No.17 tissue medium is assigned into Lumbar spine.
+MAT[5100]
+  1000   -0.0747702  ! H
+  6000   -0.3136439  ! C
+  7000   -0.0328932  ! N
+  8000   -0.4001692  ! O
+  11000  -0.0008933  ! Na
+  12000  -0.0012209  ! Mg
+  15000  -0.0583807  ! P
+  16000  -0.0018508  ! S
+  20000  -0.1161728  ! Ca
+  26000  -0.0000050  ! Fe
+mt5100
+$
+$ 5300_Sacrum, density:1.2618 g/cm3
+$ No.18 tissue medium is assigned into Sacrum.
+MAT[5300]
+  1000   -0.0798396  ! H
+  6000   -0.3447876  ! C
+  7000   -0.0312159  ! N
+  8000   -0.3917035  ! O
+  11000  -0.0010577  ! Na
+  12000  -0.0010418  ! Mg
+  15000  -0.0498022  ! P
+  16000  -0.0016204  ! S
+  20000  -0.0989250  ! Ca
+  26000  -0.0000063  ! Fe
+mt5300
+$
+$ 5500_Sternum, density:1.2575 g/cm3
+$ No.19 tissue medium is assigned into Sternum.
+MAT[5500]
+  1000   -0.0802299  ! H
+  6000   -0.3471864  ! C
+  7000   -0.0310868  ! N
+  8000   -0.3910520  ! O
+  11000  -0.0010703  ! Na
+  12000  -0.0010278  ! Mg
+  15000  -0.0491416  ! P
+  16000  -0.0016026  ! S
+  20000  -0.0975964  ! Ca
+  26000  -0.0000062  ! Fe
+mt5500
+$
+$ 5600_Os hyoideum, density:1.3587 g/cm3
+$ No.20 tissue medium is assigned into Os hyoideum.
+MAT[5600]
+  1000   -0.0716792  ! H
+  6000   -0.2946523  ! C
+  7000   -0.0339168  ! N
+  8000   -0.4053339  ! O
+  11000  -0.0007931  ! Na
+  12000  -0.0013296  ! Mg
+  15000  -0.0636120  ! P
+  16000  -0.0019901  ! S
+  20000  -0.1266906  ! Ca
+  26000  -0.0000025  ! Fe
+mt5600
+$ 
+$ 5900_Auricular cartilage, left, density:1.100 g/cm3
+$ No.21 tissue medium is assigned into Auricular cartilage, left.
+MAT[5900] 
+  1000   -0.09600  ! H 
+  6000   -0.09900  ! C 
+  7000   -0.02200  ! N 
+  8000   -0.74400  ! O 
+  11000  -0.00500  ! Na
+  15000  -0.02200  ! P 
+  16000  -0.00900  ! S 
+  17000  -0.00300  ! Cl 
+mt5900
+$ 
+$ 5901_Auricular cartilage, right, density:1.100 g/cm3
+$ No.21 tissue medium is assigned into Auricular cartilage, right.
+MAT[5901] 
+  1000   -0.09600  ! H 
+  6000   -0.09900  ! C 
+  7000   -0.02200  ! N 
+  8000   -0.74400  ! O 
+  11000  -0.00500  ! Na
+  15000  -0.02200  ! P 
+  16000  -0.00900  ! S 
+  17000  -0.00300  ! Cl 
+mt5901
+$ 
+$ 6100_Brain, density:1.040 g/cm3 
+$ No.30 tissue medium is assigned into Brain.
+MAT[6100] 
+  1000   -0.10700  ! H 
+  6000   -0.14500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.71200  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00400  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00300  ! Cl 
+  19000  -0.00300  ! K 
+mt6100
+$
+$ 6200_Breast, left, adipose tissue, density:0.950 g/cm3 
+$ No.25 tissue medium is assigned into Breast, left, adipose tissue.
+MAT[6200] 
+  1000   -0.11400  ! H 
+  6000   -0.59800  ! C
+  7000   -0.00700  ! N 
+  8000   -0.27800  ! O 
+  11000  -0.00100  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00100  ! Cl 
+mt6200
+$ 
+$ 6300_Breast, left, glandular tissue, density:0.940 g/cm3 
+$ No.26 tissue medium is assigned into Breast, left, glandular tissue.
+MAT[6300]
+  1000   -0.11600  ! H 
+  6000   -0.51900  ! C
+  8000   -0.36500  ! O 
+mt6300
+$ 
+$ 6400_Breast, right, adipose tissue, density:0.950 g/cm3 
+$ No.25 tissue medium is assigned into Breast, right, adipose tissue.
+MAT[6400] 
+  1000   -0.11400  ! H 
+  6000   -0.59800  ! C
+  7000   -0.00700  ! N 
+  8000   -0.27800  ! O 
+  11000  -0.00100  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00100  ! Cl 
+mt6400
+$ 
+$ 6500 Breast, right, glandular tissue, density:0.940 g/cm3 
+$ No.26 tissue medium is assigned into Breast, right, glandular tissue.
+MAT[6500]
+  1000   -0.11600  ! H 
+  6000   -0.51900  ! C
+  8000   -0.36500  ! O 
+mt6500
+$  
+$ 6600_Eye lens, sensitive, left, density:1.060 g/cm3
+$ No.31 tissue medium is assigned into Eye lens, sensitive, left.
+MAT[6600] 
+  1000   -0.09600  ! H 
+  6000   -0.19500  ! C 
+  7000   -0.05700  ! N 
+  8000   -0.64600  ! O 
+  11000  -0.00100  ! Na
+  15000  -0.00100  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+mt6600
+$
+$ 6601_Eye lens, insensitive, left, density:1.060 g/cm3
+$ No.31 tissue medium is assigned into Eye lens, insensitive, left.
+MAT[6601] 
+  1000   -0.09600  ! H 
+  6000   -0.19500  ! C 
+  7000   -0.05700  ! N 
+  8000   -0.64600  ! O 
+  11000  -0.00100  ! Na
+  15000  -0.00100  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+mt6601
+$
+$ 6700_Cornea and sclera, left, density:1.087 g/cm3 
+$ No.32 tissue medium is assigned into Cornea and sclera, left.
+MAT[6700]
+  1000   -0.10100  ! H 
+  6000   -0.12600  ! C 
+  7000   -0.03700  ! N 
+  8000   -0.73100  ! O 
+  11000  -0.00100  ! Na
+  15000  -0.00100  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00100  ! Cl
+mt6700
+$
+$ 6701_Aqueous, left, density:1.014 g/cm3 
+$ No.33 tissue medium is assigned into Aqueous, left.
+MAT[6701]
+  1000   -0.11200  ! H 
+  6000   -0.00300  ! C 
+  7000   -0.00100  ! N 
+  8000   -0.88400  ! O
+mt6701
+$
+$ 6702_Vitreous, left, density:1.019 g/cm3 
+$ No.34 tissue medium is assigned into Vitreous, left.
+MAT[6702]
+  1000   -0.11200  ! H 
+  6000   -0.00300  ! C 
+  7000   -0.00100  ! N 
+  8000   -0.88400  ! O 
+mt6702
+$  
+$ 6800_Eye lens, sensitive, right, density:1.060 g/cm3
+$ No.31 tissue medium is assigned into Eye lens, sensitive, right.
+MAT[6800] 
+  1000   -0.09600  ! H 
+  6000   -0.19500  ! C 
+  7000   -0.05700  ! N 
+  8000   -0.64600  ! O 
+  11000  -0.00100  ! Na
+  15000  -0.00100  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+mt6800
+$
+$ 6801_Eye lens, insensitive, right, density:1.060 g/cm3
+$ No.31 tissue medium is assigned into Eye lens, insensitive, right.
+MAT[6801] 
+  1000   -0.09600  ! H 
+  6000   -0.19500  ! C 
+  7000   -0.05700  ! N 
+  8000   -0.64600  ! O 
+  11000  -0.00100  ! Na
+  15000  -0.00100  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+mt6801
+$
+$ 6900_Corne and sclera, right, density:1.087 g/cm3 
+$ No.32 tissue medium is assigned into Corne and sclera, right.
+MAT[6900]
+  1000   -0.10100  ! H 
+  6000   -0.12600  ! C 
+  7000   -0.03700  ! N 
+  8000   -0.73100  ! O 
+  11000  -0.00100  ! Na
+  15000  -0.00100  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00100  ! Cl
+mt6900
+$
+$ 6901_Aqueous, right, density:1.014 g/cm3 
+$ No.33 tissue medium is assigned into Aqueous, right.
+MAT[6901]
+  1000   -0.11200  ! H 
+  6000   -0.00300  ! C 
+  7000   -0.00100  ! N 
+  8000   -0.88400  ! O
+mt6901
+$
+$ 6902_Vitreous, right, density:1.019 g/cm3 
+$ No.34 tissue medium is assigned into Vitreous, right.
+MAT[6902]
+  1000   -0.11200  ! H 
+  6000   -0.00300  ! C 
+  7000   -0.00100  ! N 
+  8000   -0.88400  ! O 
+mt6902
+$
+$ 7000_Gallbladder wall, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Gallbladder wall.
+MAT[7000] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt7000
+$ 
+$ 7100_Gallbladder contents, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Gallbladder contents.
+MAT[7100] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt7100
+$ 
+$ 7200_Stomach wall, 60um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Stomach wall, 60um.
+MAT[7200] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt7200
+$ 
+$ 7201_Stomach wall, 100um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Stomach wall, 100um.
+MAT[7201] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt7201
+$ 
+$ 7202_Stomach wall, 300um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Stomach wall, 300um.
+MAT[7202] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt7202
+$ 
+$ 7203_Stomach wall, surface, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Stomach wall, surface.
+MAT[7203] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt7203
+$ 
+$ 7300_Stomach contents, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into SStomach contents.
+MAT[7300] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt7300
+$ 
+$ 7400_Small intestine wall, 130um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Small intestine wall, 130um.
+MAT[7400] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt7400
+$ 
+$ 7401_Small intestine wall, 150um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Small intestine wall, 150um.
+MAT[7401] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt7401
+$ 
+$ 7402_Small intestine wall, 200um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Small intestine wall, 200um.
+MAT[7402] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt7402
+$ 
+$ 7403_Small intestine wall, surface, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Small intestine wall, surface.
+MAT[7403] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt7403
+$ 
+$ 7500_Small intestine contents, 0um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Small intestine contents, 0um.
+MAT[7500] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt7500
+$ 
+$ 7501_Small intestine contents, -500um, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Small intestine contents, -500um.
+MAT[7501] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt7501
+$ 
+$ 7600_Ascending+Transverse right colon wall, 280um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Ascending+Transverse right colon wall, 280um.
+MAT[7600] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt7600
+$
+$ 7601_Ascending+Transverse right colon wall, 300um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Ascending+Transverse right colon wall, 300um.
+MAT[7601] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt7601
+$
+$ 7602_Ascending+Transverse right colon wall, surface, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Ascending+Transverse right colon wall, surface.
+MAT[7602] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt7602
+$
+$ 7700_Ascending+Transverse right colon contents, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Ascending+Transverse right colon contents.
+MAT[7700] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt7700
+$ 
+$ 8000_Transverse left+descending colon wall, 280um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Transverse left+descending colon wall, 280um.
+MAT[8000] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt8000
+$
+$ 8001_Transverse left+descending colon wall, 300um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Transverse left+descending colon wall, 300um.
+MAT[8001] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt8001
+$
+$ 8002_Transverse left+descending colon wall, surface, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Transverse left+descending colon wall, surface.
+MAT[8002] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt8002
+$
+$ 8100_Transverse left+descending colon contents, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Transverse left+descending colon contents.
+MAT[8100] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt8100
+$ 
+$ 8400_Sigmoid colon wall, 280um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Sigmoid colon wall, 280um.
+MAT[8400] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt8400
+$
+$ 8401_Sigmoid colon wall, 300umm, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Sigmoid colon wall, 300um.
+MAT[8401] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt8401
+$
+$ 8402_Sigmoid colon_wall, surface, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Sigmoid colon_wall, surface.
+MAT[8402] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt8402
+$
+$ 8500_Sigmoid colon contents, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Sigmoid colon contents.
+MAT[8500] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt8500
+$ 
+$ 8700_Heart wall, density:1.050 g/cm3 
+$ No.35 tissue medium is assigned into Heart wall.
+MAT[8700] 
+  1000   -0.10400  ! H 
+  6000   -0.13900  ! C
+  7000   -0.02900  ! N 
+  8000   -0.71800  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00300  ! K 
+mt8700
+$ 
+$ 8800_Blood in heart chamber, density:1.060 g/cm3 
+$ No.42 tissue medium is assigned into Blood in heart chamber.
+MAT[8800] 
+  1000   -0.10200  ! H 
+  6000   -0.11000  ! C
+  7000   -0.03300  ! N 
+  8000   -0.74500  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00300  ! Cl 
+  19000  -0.00200  ! K 
+  26000  -0.00100  ! Fe 
+mt8800
+$
+$ 8900 Kidney, left (cortex+medulla+pelvis), density:1.050 g/cm3 
+$ No.36 tissue medium is assigned into Kidney, left (cortex+medulla+pelvis).
+MAT[8900] 
+  1000   -0.10300  ! H 
+  6000   -0.13200  ! C
+  7000   -0.03000  ! N 
+  8000   -0.72400  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00200  ! K 
+  20000  -0.00100  ! Ca 
+mt8900
+$ 
+$ 9200_Kidney, right (cortex+medulla+pelvis), density:1.050 g/cm3 
+$ No.36 tissue medium is assigned into Kidney, right (cortex+medulla+pelvis).
+MAT[9200] 
+  1000   -0.10300  ! H 
+  6000   -0.13200  ! C
+  7000   -0.03000  ! N 
+  8000   -0.72400  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00200  ! K 
+  20000  -0.00100  ! Ca 
+mt9200
+$ 
+$ 9500 Liver, density:1.050 g/cm3 
+$ No.37 tissue medium is assigned into Liver.
+MAT[9500] 
+  1000   -0.10300  ! H 
+  6000   -0.18600  ! C
+  7000   -0.02800  ! N 
+  8000   -0.67100  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00300  ! K 
+mt9500
+$ 
+$ 9700_Lung (AI), left, density:0.260 g/cm3 
+$ No.27 tissue medium is assigned into Lung (AI), left.
+MAT[9700] 
+  1000   -0.10300  ! H 
+  6000   -0.10500  ! C
+  7000   -0.03100  ! N 
+  8000   -0.74900  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00300  ! Cl 
+  19000  -0.00200  ! K 
+mt9700
+$ 
+$ 9900_Lung (AI), right, density:0.260 g/cm3 
+$ No.27 tissue medium is assigned into Lung (AI), right.
+MAT[9900] 
+  1000   -0.10300  ! H 
+  6000   -0.10500  ! C
+  7000   -0.03100  ! N 
+  8000   -0.74900  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00300  ! Cl 
+  19000  -0.00200  ! K 
+mt9900
+$ 
+$ 10000_Lymphatic nodes, ET, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, ET2.
+MAT[10000] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10000
+$
+$ 10100_Lymphatic nodes, thoracic, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, thoracic.
+MAT[10100] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10100
+$
+$ 10200_Lymphatic nodes, head, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, head.
+MAT[10200] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10200
+$
+$ 10300_Lymphatic nodes, trunk, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, trunk.
+MAT[10300] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10300
+$
+$ 10400_Lymphatic nodes, upper arm, left, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, upper arm, left.
+MAT[10400] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10400
+$
+$ 10401_Lymphatic nodes, upper arm, right, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, upper arm, right.
+MAT[10401] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10401
+$
+$ 10402_Lymphatic nodes, forearm, left, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, forearm, left.
+MAT[10402] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10402
+$
+$ 10403_Lymphatic nodes, forearm, right, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, forearm, right.
+MAT[10403] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10403
+$
+$ 10500_Lymphatic nodes, thigh, left, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, thigh, left.
+MAT[10500] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10500
+$
+$ 10501_Lymphatic nodes, thigh, right, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, thigh, right.
+MAT[10501] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10501
+$
+$ 10502_Lymphatic nodes, legs, left, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, legs, left.
+MAT[10502] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10502
+$
+$ 10503_Lymphatic nodes, legs, right, density:1.030 g/cm3 
+$ No.45 tissue medium is assigned into Lymphatic nodes, legs, right.
+MAT[10503] 
+  1000   -0.10800  ! H 
+  6000   -0.04200  ! C
+  7000   -0.01100  ! N 
+  8000   -0.83100  ! O 
+  11000  -0.00300  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00400  ! Cl 
+mt10503
+$
+$ 10600_Muscle, clavicles, left, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, clavicles, left.
+MAT[10600] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10600
+$ 
+$ 10601_Muscle, clavicles, right, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, clavicles, right.
+MAT[10601] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10601
+$
+$ 10602_Muscle, scapulae, left, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, scapulae, left.
+MAT[10602] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10602
+$ 
+$ 10603_Muscle, scapulae, right, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, scapulae, right.
+MAT[10603] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10603
+$
+$ 10604_Muscle, humeri, left, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, humeri, left.
+MAT[10604] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10604
+$ 
+$ 10605_Muscle, humeri, right, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, humeri, right.
+MAT[10605] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10605
+$
+$ 10606_Muscle, ulnae and radii, left, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, ulnae and radii, left.
+MAT[10606] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10606
+$ 
+$ 10607_Muscle, ulnae and radii, right, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, ulnae and radii, right.
+MAT[10607] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10607
+$
+$ 10608_Muscle, Wrists and hand bones, left, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, Wrists and hand bones, left.
+MAT[10608] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10608
+$ 
+$ 10609_Muscle, Wrists and hand bones, right, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, Wrists and hand bones, right.
+MAT[10609] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10609
+$
+$ 10610_Muscle, femora, left, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, femora, left.
+MAT[10610] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10610
+$ 
+$ 10611_Muscle, femora, right, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, femora, right.
+MAT[10611] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10611
+$
+$ 10612_Muscle, tibiae, fibulae, and patellae, left, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, tibiae, fibulae, and patellae, left.
+MAT[10612] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10612
+$ 
+$ 10613_Muscle, tibiae, fibulae, and patellae, right, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, tibiae, fibulae, and patellae, right.
+MAT[10613] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10613
+$
+$ 10614_Muscle, ankles and foot, left, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, ankles and foot, left.
+MAT[10614] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10614
+$ 
+$ 10615_Muscle, ankles and foot, right, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, ankles and foot, right.
+MAT[10615] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10615
+$
+$ 10616_Muscle, head and trunk, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Muscle, head and trunk.
+MAT[10616] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt10616
+$
+$ 11000_Oesophagus wall, 190um, density:1.030 g/cm3
+$ No.40 tissue medium is assigned into Oesophagus wall, 190um.
+MAT[11000] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt11000
+$ 
+$ 11001_Oesophagus wall, 200um, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Oesophagus wall, 200um.
+MAT[11001] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt11001
+$ 
+$ 11002_Oesophagus wall, surface, density:1.030 g/cm3 
+$ No.40 tissue medium is assigned into Oesophagus wall, surface.
+MAT[11002] 
+  1000   -0.10600  ! H 
+  6000   -0.11500  ! C
+  7000   -0.02200  ! N 
+  8000   -0.75100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+mt11002
+$ 
+$ 11003_Oesophagus contents, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Oesophagus contents.
+MAT[11003] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt11003
+$
+$ 11100_Ovary, left, density:1.050 g/cm3 
+$ No.43 tissue medium is assigned into Ovary, left.
+MAT[11100] 
+  1000   -0.10500  ! H 
+  6000   -0.09300  ! C
+  7000   -0.02400  ! N 
+  8000   -0.76800  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00200  ! K 
+mt11100
+$ 
+$ 11200_Ovary, right, density:1.050 g/cm3 
+$ No.43 tissue medium is assigned into Ovary, right.
+MAT[11200] 
+  1000   -0.10500  ! H 
+  6000   -0.09300  ! C
+  7000   -0.02400  ! N 
+  8000   -0.76800  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00200  ! K 
+mt11200
+$ 
+$ 11300_Pancreas, density:1.040 g/cm3 
+$ No.38 tissue medium is assigned into Pancreas.
+MAT[11300] 
+  1000   -0.10600  ! H 
+  6000   -0.16900  ! C
+  7000   -0.02200  ! N 
+  8000   -0.69400  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00200  ! K 
+mt11300
+$ 
+$ 11600_RST, adipose tissue, visceral, density:0.950 g/cm3 
+$ No.25 tissue medium is assigned into RST, adipose tissue, visceral.
+MAT[11600] 
+  1000   -0.11400  ! H 
+  6000   -0.59800  ! C
+  7000   -0.00700  ! N 
+  8000   -0.27800  ! O 
+  11000  -0.00100  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00100  ! Cl 
+mt11600
+$
+$ 11601_RST, adipose tissue, subcutaneous, density:0.950 g/cm3 
+$ No.25 tissue medium is assigned into RST, adipose tissue, subcutaneous.
+MAT[11601] 
+  1000   -0.11400  ! H 
+  6000   -0.59800  ! C
+  7000   -0.00700  ! N 
+  8000   -0.27800  ! O 
+  11000  -0.00100  ! Na 
+  16000  -0.00100  ! S 
+  17000  -0.00100  ! Cl 
+mt11601
+$
+$ 12000_Salivary glands, sublingual, left, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Salivary glands, sublingual, left.
+MAT[12000] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt12000
+$ 
+$ 12001_Salivary glands, submaxillary, left, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Salivary glands, submaxillary, left.
+MAT[12001] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt12001
+$ 
+$ 12002_Salivary glands, parotid, left, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Salivary glands, parotid, left.
+MAT[12002] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt12002
+$ 
+$ 12100_Salivary glands, sublingual, right, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Salivary glands, sublingual, right.
+MAT[12100] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt12100
+$ 
+$ 12101_Salivary glands, submaxillary, right, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Salivary glands, submaxillary, right.
+MAT[12101] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt12101
+$ 
+$ 12102_Salivary glands, parotid, right, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Salivary glands, parotid, right.
+MAT[12102] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt12102
+$ 
+$ 12200_Skin, insensitive, surface(1130um), density:1.090 g/cm3 
+$ No.24 tissue medium is assigned into Skin, insensitive, surface(1130um).
+MAT[12200] 
+  1000   -0.10000  ! H 
+  6000   -0.20400  ! C
+  7000   -0.04200  ! N 
+  8000   -0.64500  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00300  ! Cl 
+  19000  -0.00100  ! K 
+mt12200
+$ 
+$ 12201_Skin, insensitive, 100um(1030um), density:1.090 g/cm3
+$ No.24 tissue medium is assigned into Skin, insensitive, 100um(1030um). 
+MAT[12201] 
+  1000   -0.10000  ! H 
+  6000   -0.20400  ! C
+  7000   -0.04200  ! N 
+  8000   -0.64500  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00300  ! Cl 
+  19000  -0.00100  ! K 
+mt12201
+$ 
+$ 12202_Skin, sensitive, 50um(1080um), density:1.090 g/cm3 
+$ No.24 tissue medium is assigned into Skin, sensitive, 50um(1080um). 
+MAT[12202] 
+  1000   -0.10000  ! H 
+  6000   -0.20400  ! C
+  7000   -0.04200  ! N 
+  8000   -0.64500  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00300  ! Cl 
+  19000  -0.00100  ! K 
+mt12202
+$ 
+$ 12700_Spleen, density:1.060 g/cm3 
+$ No.39 tissue medium is assigned into Spleen. 
+MAT[12700] 
+  1000   -0.10300  ! H 
+  6000   -0.11300  ! C
+  7000   -0.03200  ! N 
+  8000   -0.74100  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00300  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00300  ! K 
+mt12700
+$ 
+$ 12800_Teeth, upper, density:2.75 g/cm3 
+$ No.28 tissue medium is assigned into Teeth, upper. 
+MAT[12800]
+  1000   -0.02200  ! H  
+  6000   -0.09500  ! C
+  7000   -0.02900  ! N  
+  8000   -0.42100  ! O  
+  12000  -0.00700  ! Mg 
+  15000  -0.13700  ! P  
+  20000  -0.28900  ! Ca 
+mt12800
+$ 
+$ 12801_Teeth, retention region, upper, density:2.75 g/cm3 
+$ No.28 tissue medium is assigned into Teeth, retention region, upper. 
+MAT[12801]
+  1000   -0.02200  ! H  
+  6000   -0.09500  ! C
+  7000   -0.02900  ! N  
+  8000   -0.42100  ! O  
+  12000  -0.00700  ! Mg 
+  15000  -0.13700  ! P  
+  20000  -0.28900  ! Ca 
+mt12801
+$  
+$ 12802_Teeth, lower, density:2.75 g/cm3 
+$ No.28 tissue medium is assigned into Teeth, lower. 
+MAT[12802]
+  1000   -0.02200  ! H  
+  6000   -0.09500  ! C
+  7000   -0.02900  ! N  
+  8000   -0.42100  ! O  
+  12000  -0.00700  ! Mg 
+  15000  -0.13700  ! P  
+  20000  -0.28900  ! Ca 
+mt12802
+$  
+$ 12803_Teeth, retention region, lower, density:2.75 g/cm3 
+$ No.28 tissue medium is assigned into Teeth, retention region, lower. 
+MAT[12803]
+  1000   -0.02200  ! H  
+  6000   -0.09500  ! C
+  7000   -0.02900  ! N  
+  8000   -0.42100  ! O  
+  12000  -0.00700  ! Mg 
+  15000  -0.13700  ! P  
+  20000  -0.28900  ! Ca 
+mt12803
+$  
+$ 13100_Thymus, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Thymus. 
+MAT[13100] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt13100
+$ 
+$ 13200_Thyroid, density:1.050 g/cm3 
+$ No.41 tissue medium is assigned into Thyroid. 
+MAT[13200] 
+  1000   -0.10400  ! H 
+  6000   -0.11900  ! C
+  7000   -0.02400  ! N 
+  8000   -0.74500  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00100  ! P 
+  16000  -0.00100  ! S 
+  17000  -0.00200  ! Cl 
+  19000  -0.00100  ! K 
+  53000  -0.00100  ! I 
+mt13200
+$ 
+$ 13300_Tongue, surface, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Tongue, surface.
+MAT[13300] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt13300
+$ 
+$ 13301_Tongue, surface, 200um, density:1.050 g/cm3 
+$ No.23 tissue medium is assigned into Tongue, surface, 200um.
+MAT[13301] 
+  1000   -0.10200  ! H 
+  6000   -0.14300  ! C
+  7000   -0.03400  ! N 
+  8000   -0.71000  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00300  ! S 
+  17000  -0.00100  ! Cl
+  19000  -0.00400  ! K 
+mt13301
+$ 
+$ 13700_Urinary bladder wall, density:1.040 g/cm3 
+$ No.29 tissue medium is assigned into Urinary bladder wall.
+MAT[13700] 
+  1000   -0.10500  ! H 
+  6000   -0.09600  ! C
+  7000   -0.02600  ! N 
+  8000   -0.76100  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00300  ! Cl 
+  19000  -0.00300  ! K 
+mt13700
+$
+$ 13701_Urinary bladder wall, 116um, density:1.040 g/cm3 
+$ No.29 tissue medium is assigned into Urinary bladder wall, 116um.
+MAT[13701] 
+  1000   -0.10500  ! H 
+  6000   -0.09600  ! C
+  7000   -0.02600  ! N 
+  8000   -0.76100  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00300  ! Cl 
+  19000  -0.00300  ! K 
+mt13701
+$
+$ 13702_Urinary bladder wall, 185um, density:1.040 g/cm3 
+$ No.29 tissue medium is assigned into Urinary bladder wall, 185um.
+MAT[13702] 
+  1000   -0.10500  ! H 
+  6000   -0.09600  ! C
+  7000   -0.02600  ! N 
+  8000   -0.76100  ! O 
+  11000  -0.00200  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00300  ! Cl 
+  19000  -0.00300  ! K 
+mt13702
+$
+$ 13800_Urinary bladder contents, density:1.030 g/cm3 
+$ No.22 tissue medium is assigned into Urinary bladder contents.
+MAT[13800] 
+1000   -0.10500  ! H 
+6000   -0.25600  ! C
+7000   -0.02700  ! N 
+8000   -0.60200  ! O 
+11000  -0.00100  ! Na 
+15000  -0.00200  ! P 
+16000  -0.00300  ! S 
+17000  -0.00200  ! Cl 
+19000  -0.00200  ! K 
+mt13800
+$
+$ 13900_Uterus, density:1.020 g/cm3 
+$ No.44 tissue medium is assigned into Uterus.
+MAT[13900] 
+  1000   -0.10600  ! H 
+  6000   -0.31500  ! C
+  7000   -0.02400  ! N 
+  8000   -0.54700  ! O 
+  11000  -0.00100  ! Na 
+  15000  -0.00200  ! P 
+  16000  -0.00200  ! S 
+  17000  -0.00100  ! Cl 
+  19000  -0.00200  ! K 
+mt13900
+$ 
+$ 14000_ET1 contents, left, 0um (air), density:1.204E-03 g/cm3
+$ No.47 tissue medium is assigned into ET1 contents, left, 0um (air).
+MAT[14000] 
+  6000   -0.00012  ! C
+  7000   -0.75527  ! N 
+  8000   -0.23178  ! O 
+  18000  -0.01283  ! Ar 
+mt14000
+$ 
+$ 14001_ET1 contents, right, 0um (air), density:1.204E-03 g/cm3
+$ No.47 tissue medium is assigned into ET1 contents, right, 0um (air).
+MAT[14001] 
+  6000   -0.00012  ! C
+  7000   -0.75527  ! N 
+  8000   -0.23178  ! O 
+  18000  -0.01283  ! Ar 
+mt14001
+$ 
+$ 14002_ET2_contents, -15um (air), density:1.204E-03 g/cm3
+$ No.47 tissue medium is assigned into ET2_contents, -15um (air).
+MAT[14002] 
+  6000   -0.00012  ! C
+  7000   -0.75527  ! N 
+  8000   -0.23178  ! O 
+  18000  -0.01283  ! Ar 
+mt14002
+$ 
+$ 14003_Trachea contents (air), density:1.204E-03 g/cm3
+$ No.47 tissue medium is assigned into Trachea contents (air).
+MAT[14003] 
+  6000   -0.00012  ! C
+  7000   -0.75527  ! N 
+  8000   -0.23178  ! O 
+  18000  -0.01283  ! Ar 
+mt14003
+$
+$ 14004_BB1 contents, -11um(air), density:1.204E-03 g/cm3
+$ No.47 tissue medium is assigned into BB1 contents, -11um(air).
+MAT[14004] 
+  6000   -0.00012  ! C
+  7000   -0.75527  ! N 
+  8000   -0.23178  ! O 
+  18000  -0.01283  ! Ar 
+mt14004
+$
+$ 99_Air, density:1.204E-03 g/cm3
+$ No.47 tissue medium is assigned into Air.
+MAT[99] 
+  6000   -0.00012  ! C
+  7000   -0.75527  ! N 
+  8000   -0.23178  ! O 
+  18000  -0.01283  ! Ar 
+mt99
+$ 
+$ *******************************************************************************
+$  End 
+$ *******************************************************************************  

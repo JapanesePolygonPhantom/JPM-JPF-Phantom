@@ -1,0 +1,207 @@
+$
+$ Cell data file for the Japanese Polygon mesh-type Fale of adult Japanese (JPF) 
+$ on the Particle and Heavy Ion Transport code System (PHITS). 
+$
+ 00001  0  -20  U=20000 LAT=3 tfile=JPF TSFAC=1.0
+ 00002  0  -10  FILL=20000
+ 00003  0  -20  10
+ 00004  0  -90  20
+ 00005 -1   90
+  100   100  -1.0300E+00  -90 u=  100  VOL=6.3107E+00  $ 100_Adrenal, left
+  200   200  -1.0300E+00  -90 u=  200  VOL=6.3107E+00  $ 200_Adrenal, right
+  300   300  -1.0300E+00  -90 u=  300  VOL=1.3750E-02  $ 300_ET1, left, 8um
+  301   301  -1.0300E+00  -90 u=  301  VOL=5.4560E-02  $ 301_ET1, left, 40um
+  302   302  -1.0300E+00  -90 u=  302  VOL=1.7147E-02  $ 302_ET1, left, 50um
+  303   303  -1.0300E+00  -90 u=  303  VOL=8.6293E-02  $ 303_ET1, left, surface
+  304   304  -1.0300E+00  -90 u=  304  VOL=1.3679E-02  $ 304_ET1, right, 8um
+  305   305  -1.0300E+00  -90 u=  305  VOL=5.4329E-02  $ 305_ET1, right, 40um
+  306   306  -1.0300E+00  -90 u=  306  VOL=1.6452E-02  $ 306_ET1, right, 50um
+  307   307  -1.0300E+00  -90 u=  307  VOL=8.5875E-02  $ 307_ET1, right, surface
+  400   400  -1.0000E+00  -90 u=  400  VOL=2.7652E-01  $ 400_ET2, 0um 
+  401   401  -1.0300E+00  -90 u=  401  VOL=7.3878E-01  $ 401_ET2, 40um
+  402   402  -1.0300E+00  -90 u=  402  VOL=1.8663E-01  $ 402_ET2, 50um
+  403   403  -1.0300E+00  -90 u=  403  VOL=9.2755E-02  $ 403_ET2, 55um
+  404   404  -1.0300E+00  -90 u=  404  VOL=1.8582E-01  $ 404_ET2, 65um
+  405   405  -1.0300E+00  -90 u=  405  VOL=6.5236E-01  $ 405_ET2, surface
+  500   500  -1.0500E+00  -90 u=  500  VOL=7.8820E-02  $ 500_Oral mucosa, tongue
+  501   501  -1.0500E+00  -90 u=  501  VOL=4.0797E-02  $ 501_Oral mucosa, mouth floor
+  600   600  -1.0500E+00  -90 u=  600  VOL=6.7375E-03  $ 600_Oral mucosa, upper lips and cheeks
+  601   601  -1.0500E+00  -90 u=  601  VOL=7.1303E-03  $ 601_Oral mucosa, lower lips and cheeks
+  700   700  -1.0300E+00  -90 u=  700  VOL=6.6011E+00  $ 700_Trachea
+  800   800  -1.0000E+00  -90 u=  800  VOL=4.1353E-02  $ 800_BB1, -6um
+  801   801  -1.2040E-03  -90 u=  801  VOL=4.9646E-02  $ 801_BB1, 0um
+  802   802  -1.0300E+00  -90 u=  802  VOL=8.2936E-02  $ 802_BB1, 10um
+  803   803  -1.0300E+00  -90 u=  803  VOL=2.0832E-01  $ 803_BB1, 35um
+  804   804  -1.0300E+00  -90 u=  804  VOL=4.1781E-02  $ 804_BB1, 40um
+  805   805  -1.0300E+00  -90 u=  805  VOL=8.3846E-02  $ 805_BB1, 50um
+  806   806  -1.0300E+00  -90 u=  806  VOL=8.4011E-02  $ 806_BB1, 60um
+  807   807  -1.0300E+00  -90 u=  807  VOL=8.4248E-02  $ 807_BB1, 70um
+  808   808  -1.0300E+00  -90 u=  808  VOL=1.0834E+01  $ 808_BB1, surface
+ 1400  1400  -1.3551E+00  -90 u= 1400  VOL=7.9414E+01  $ 1400_Humeri, upper, left
+ 1401  1401  -1.3551E+00  -90 u= 1401  VOL=9.1104E+01  $ 1401_Humeri, upper, right
+ 1700  1700  -1.4596E+00  -90 u= 1700  VOL=5.1238E+01  $ 1700_Humeri, lower, left
+ 1701  1701  -1.4596E+00  -90 u= 1701  VOL=4.4956E+01  $ 1701_Humeri, lower, right
+ 1900  1900  -1.4079E+00  -90 u= 1900  VOL=7.0239E+01  $ 1900_Ulnae and radii, left
+ 1901  1901  -1.4079E+00  -90 u= 1901  VOL=5.9483E+01  $ 1901_Ulnae and radii, right
+ 2200  2200  -1.3360E+00  -90 u= 2200  VOL=2.2444E+01  $ 2200_Wrists and hand bones, left
+ 2201  2201  -1.3360E+00  -90 u= 2201  VOL=2.9770E+01  $ 2201_Wrists and hand bones, right
+ 2400  2400  -1.4230E+00  -90 u= 2400  VOL=1.1998E+01  $ 2400_Clavicles, left
+ 2401  2401  -1.4230E+00  -90 u= 2401  VOL=1.2470E+01  $ 2401_Clavicles, right
+ 2600  2600  -1.5151E+00  -90 u= 2600  VOL=8.7267E+02  $ 2600_Cranium
+ 2900  2900  -1.4129E+00  -90 u= 2900  VOL=1.9634E+02  $ 2900_Femora, upper, left
+ 2901  2901  -1.4129E+00  -90 u= 2901  VOL=1.8367E+02  $ 2901_Femora, upper, right
+ 3200  3200  -1.3692E+00  -90 u= 3200  VOL=1.9079E+02  $ 3200_Femora, lower, left
+ 3201  3201  -1.3692E+00  -90 u= 3201  VOL=1.7914E+02  $ 3201_Femora, lower, right
+ 3400  3400  -1.3652E+00  -90 u= 3400  VOL=3.2405E+02  $ 3400_Tibiae, fibulae, and patellae, left
+ 3401  3401  -1.3652E+00  -90 u= 3401  VOL=3.7690E+02  $ 3401_Tibiae, fibulae, and patellae, right
+ 3700  3700  -1.3441E+00  -90 u= 3700  VOL=1.6758E+02  $ 3700_Ankles and foot, left
+ 3701  3701  -1.3441E+00  -90 u= 3701  VOL=1.6227E+02  $ 3701_Ankles and foot, right
+ 3900  3900  -1.5745E+00  -90 u= 3900  VOL=9.0709E+01  $ 3900_Mandible
+ 4100  4100  -1.3558E+00  -90 u= 4100  VOL=4.0107E+02  $ 4100_Pelvis
+ 4300  4300  -1.3249E+00  -90 u= 4300  VOL=1.0150E+01  $ 4300_Rib, left, No.01
+ 4301  4301  -1.3249E+00  -90 u= 4301  VOL=9.7240E+00  $ 4301_Rib, right, No.01
+ 4302  4302  -1.3249E+00  -90 u= 4302  VOL=1.3584E+01  $ 4302_Rib, left, No.02
+ 4303  4303  -1.3249E+00  -90 u= 4303  VOL=1.1424E+01  $ 4303_Rib, right, No.02
+ 4304  4304  -1.3249E+00  -90 u= 4304  VOL=1.5895E+01  $ 4304_Rib, left, No.03
+ 4305  4305  -1.3249E+00  -90 u= 4305  VOL=1.3760E+01  $ 4305_Rib, right, No.03
+ 4306  4306  -1.3249E+00  -90 u= 4306  VOL=1.7460E+01  $ 4306_Rib, left, No.04
+ 4307  4307  -1.3249E+00  -90 u= 4307  VOL=1.9281E+01  $ 4307_Rib, right, No.04
+ 4308  4308  -1.3249E+00  -90 u= 4308  VOL=1.9689E+01  $ 4308_Rib, left, No.05
+ 4309  4309  -1.3249E+00  -90 u= 4309  VOL=2.3715E+01  $ 4309_Rib, right, No.05
+ 4310  4310  -1.3249E+00  -90 u= 4310  VOL=2.5821E+01  $ 4310_Rib, left, No.06
+ 4311  4311  -1.3249E+00  -90 u= 4311  VOL=2.5712E+01  $ 4311_Rib, right, No.06
+ 4312  4312  -1.3249E+00  -90 u= 4312  VOL=2.1866E+01  $ 4312_Rib, left, No.07
+ 4313  4313  -1.3249E+00  -90 u= 4313  VOL=2.7029E+01  $ 4313_Rib, right, No.07
+ 4314  4314  -1.3249E+00  -90 u= 4314  VOL=1.6747E+01  $ 4314_Rib, left, No.08
+ 4315  4315  -1.3249E+00  -90 u= 4315  VOL=1.7546E+01  $ 4315_Rib, right, No.08
+ 4316  4316  -1.3249E+00  -90 u= 4316  VOL=1.0559E+01  $ 4316_Rib, left, No.09
+ 4317  4317  -1.3249E+00  -90 u= 4317  VOL=1.4578E+01  $ 4317_Rib, right, No.09
+ 4318  4318  -1.3249E+00  -90 u= 4318  VOL=9.2930E+00  $ 4318_Rib, left, No.10
+ 4319  4319  -1.3249E+00  -90 u= 4319  VOL=7.6924E+00  $ 4319_Rib, right, No.10
+ 4320  4320  -1.3249E+00  -90 u= 4320  VOL=5.0221E+00  $ 4320_Rib, left, No.11
+ 4321  4321  -1.3249E+00  -90 u= 4321  VOL=3.6973E+00  $ 4321_Rib, right, No.11
+ 4322  4322  -1.3249E+00  -90 u= 4322  VOL=9.7111E-01  $ 4322_Rib, left, No.12
+ 4323  4323  -1.3249E+00  -90 u= 4323  VOL=1.3021E+00  $ 4323_Rib, right, No.12
+ 4500  4500  -1.4032E+00  -90 u= 4500  VOL=7.7893E+01  $ 4500_Scapulae, left
+ 4501  4501  -1.4032E+00  -90 u= 4501  VOL=5.9982E+01  $ 4501_Scapulae, right
+ 4700  4700  -1.4073E+00  -90 u= 4700  VOL=6.8961E+01  $ 4700_Cervical spine
+ 4900  4900  -1.3290E+00  -90 u= 4900  VOL=2.0546E+02  $ 4900_Thoracic spine
+ 5100  5100  -1.3203E+00  -90 u= 5100  VOL=2.0247E+02  $ 5100_Lumbar spine
+ 5300  5300  -1.2618E+00  -90 u= 5300  VOL=1.9570E+02  $ 5300_Sacrum
+ 5500  5500  -1.2575E+00  -90 u= 5500  VOL=5.2308E+01  $ 5500_Sternum
+ 5600  5600  -1.3587E+00  -90 u= 5600  VOL=2.0308E+00  $ 5600_Os hyoideum
+ 5900  5900  -1.1000E+00  -90 u= 5900  VOL=2.3866E+00  $ 5900_Auricular cartilage, left
+ 5901  5901  -1.1000E+00  -90 u= 5901  VOL=1.9342E+00  $ 5901_Auricular cartilage, right
+ 6100  6100  -1.0400E+00  -90 u= 6100  VOL=1.2692E+03  $ 6100_Brain
+ 6200  6200  -9.5000E-01  -90 u= 6200  VOL=9.4841E+01  $ 6200_Breast, left, adipose tissue
+ 6300  6300  -9.4000E-01  -90 u= 6300  VOL=6.3830E+01  $ 6300_Breast, left, glandular tissue
+ 6400  6400  -9.5000E-01  -90 u= 6400  VOL=9.4799E+01  $ 6400_Breast, right, adipose tissue
+ 6500  6500  -9.4000E-01  -90 u= 6500  VOL=6.3830E+01  $ 6500 Breast, right, glandular tissue
+ 6600  6600  -1.0600E+00  -90 u= 6600  VOL=2.4118E-02  $ 6600_Eye lens, sensitive, left
+ 6601  6601  -1.0600E+00  -90 u= 6601  VOL=1.1739E-01  $ 6601_Eye lens, insensitive, left
+ 6700  6700  -1.0870E+00  -90 u= 6700  VOL=7.8220E-01  $ 6700_Cornea and sclera, left
+ 6701  6701  -1.0140E+00  -90 u= 6701  VOL=2.5297E-01  $ 6701_Aqueous, left
+ 6702  6702  -1.0190E+00  -90 u= 6702  VOL=4.7994E+00  $ 6702_Vitreous, left
+ 6800  6800  -1.0600E+00  -90 u= 6800  VOL=2.4118E-02  $ 6800_Eye lens, sensitive, right
+ 6801  6801  -1.0600E+00  -90 u= 6801  VOL=1.1739E-01  $ 6801_Eye lens, insensitive, right
+ 6900  6900  -1.0870E+00  -90 u= 6900  VOL=7.8222E-01  $ 6900_Cornea and sclera, right
+ 6901  6901  -1.0140E+00  -90 u= 6901  VOL=2.5296E-01  $ 6901_Aqueous, right
+ 6902  6902  -1.0190E+00  -90 u= 6902  VOL=4.7994E+00  $ 6902_Vitreous, right
+ 7000  7000  -1.0300E+00  -90 u= 7000  VOL=5.8246E+00  $ 7000_Gallbladder wall
+ 7100  7100  -1.0300E+00  -90 u= 7100  VOL=3.6893E+01  $ 7100_Gallbladder contents
+ 7200  7200  -1.0300E+00  -90 u= 7200  VOL=1.4371E+00  $ 7200_Stomach wall, 60um
+ 7201  7201  -1.0300E+00  -90 u= 7201  VOL=1.0320E+00  $ 7201_Stomach wall, 100um
+ 7202  7202  -1.0300E+00  -90 u= 7202  VOL=4.6856E+00  $ 7202_Stomach wall, 300um
+ 7203  7203  -1.0300E+00  -90 u= 7203  VOL=9.9642E+01  $ 7203_Stomach wall, surface
+ 7300  7300  -1.0300E+00  -90 u= 7300  VOL=1.7476E+02  $ 7300_Stomach contents
+ 7400  7400  -1.0300E+00  -90 u= 7400  VOL=2.2501E+01  $ 7400_Small intestine wall, 130um
+ 7401  7401  -1.0300E+00  -90 u= 7401  VOL=3.5671E+00  $ 7401_Small intestine wall, 150um
+ 7402  7402  -1.0300E+00  -90 u= 7402  VOL=8.9776E+00  $ 7402_Small intestine wall, 200um
+ 7403  7403  -1.0300E+00  -90 u= 7403  VOL=4.0190E+02  $ 7403_Small intestine wall, surface
+ 7500  7500  -1.0300E+00  -90 u= 7500  VOL=7.7612E+01  $ 7500_Small intestine contents, 0um
+ 7501  7501  -1.0300E+00  -90 u= 7501  VOL=1.8458E+02  $ 7501_Small intestine contents, -500um
+ 7600  7600  -1.0300E+00  -90 u= 7600  VOL=5.4665E+00  $ 7600_Ascending+Transverse right colon wall, 280um
+ 7601  7601  -1.0300E+00  -90 u= 7601  VOL=4.7567E-01  $ 7601_Ascending+Transverse right colon wall, 300um
+ 7602  7602  -1.0300E+00  -90 u= 7602  VOL=1.0733E+02  $ 7602_Ascending+Transverse right colon wall, surface
+ 7700  7700  -1.0300E+00  -90 u= 7700  VOL=1.2178E+02  $ 7700_Ascending+Transverse right colon contents
+ 8000  8000  -1.0300E+00  -90 u= 8000  VOL=5.7433E+00  $ 8000_Transverse left+descending colon wall, 280um
+ 8001  8001  -1.0300E+00  -90 u= 8001  VOL=4.2006E-01  $ 8001_Transverse left+descending colon wall, 300um
+ 8002  8002  -1.0300E+00  -90 u= 8002  VOL=7.7472E+01  $ 8002_Transverse left+descending colon wall, surface
+ 8100  8100  -1.0300E+00  -90 u= 8100  VOL=8.9839E+01  $ 8100_Transverse left+descending colon contents
+ 8400  8400  -1.0300E+00  -90 u= 8400  VOL=4.2720E+00  $ 8400_Sigmoid colon wall, 280um
+ 8401  8401  -1.0300E+00  -90 u= 8401  VOL=3.1012E-01  $ 8401_Sigmoid colon wall, 300umm
+ 8402  8402  -1.0300E+00  -90 u= 8402  VOL=5.0690E+01  $ 8402_Sigmoid colon wall, surface
+ 8500  8500  -1.0300E+00  -90 u= 8500  VOL=6.0204E+01  $ 8500_Sigmoid colon contents
+ 8700  8700  -1.0500E+00  -90 u= 8700  VOL=2.8572E+02  $ 8700_Heart wall
+ 8800  8800  -1.0600E+00  -90 u= 8800  VOL=3.0189E+02  $ 8800_Blood in heart chamber
+ 8900  8900  -1.0500E+00  -90 u= 8900  VOL=1.3213E+02  $ 8900_Kidney, left (cortex+medulla+pelvis)
+ 9200  9200  -1.0500E+00  -90 u= 9200  VOL=1.3453E+02  $ 9200_Kidney, right (cortex+medulla+pelvis)
+ 9500  9500  -1.0500E+00  -90 u= 9500  VOL=1.3333E+03  $ 9500_Liver
+ 9700  9700  -2.6000E-01  -90 u= 9700  VOL=1.7559E+03  $ 9700_Lung (AI), left
+ 9900  9900  -2.6000E-01  -90 u= 9900  VOL=1.7440E+03  $ 9900_Lung (AI), right
+10000 10000  -1.0300E+00  -90 u=10000  VOL=7.5695E+00  $ 10000_Lymphatic nodes, ET
+10100 10100  -1.0300E+00  -90 u=10100  VOL=7.1276E+00  $ 10100_Lymphatic nodes, thoracic
+10200 10200  -1.0300E+00  -90 u=10200  VOL=2.6378E+00  $ 10200_Lymphatic nodes, head
+10300 10300  -1.0300E+00  -90 u=10300  VOL=1.2511E+02  $ 10300_Lymphatic nodes, trunk
+10400 10400  -1.0300E+00  -90 u=10400  VOL=3.2106E+00  $ 10400_Lymphatic nodes, upper arm, left
+10401 10401  -1.0300E+00  -90 u=10401  VOL=3.2102E+00  $ 10401_Lymphatic nodes, upper arm, right
+10402 10402  -1.0300E+00  -90 u=10402  VOL=1.3786E+00  $ 10402_Lymphatic nodes, forearm, left
+10403 10403  -1.0300E+00  -90 u=10403  VOL=1.3787E+00  $ 10403_Lymphatic nodes, forearm, right
+10500 10500  -1.0300E+00  -90 u=10500  VOL=4.7114E+00  $ 10500_Lymphatic nodes, thigh, left
+10501 10501  -1.0300E+00  -90 u=10501  VOL=4.7113E+00  $ 10501_Lymphatic nodes, thigh, right
+10502 10502  -1.0300E+00  -90 u=10502  VOL=2.0159E+00  $ 10502_Lymphatic nodes, legs, left
+10503 10503  -1.0300E+00  -90 u=10503  VOL=2.0159E+00  $ 10503_Lymphatic nodes, legs, right
+10600 10600  -1.0500E+00  -90 u=10600  VOL=3.0522E+01  $ 10600_Muscle, clavicles, left
+10601 10601  -1.0500E+00  -90 u=10601  VOL=3.0994E+01  $ 10601_Muscle, clavicles, right
+10602 10602  -1.0500E+00  -90 u=10602  VOL=1.0565E+02  $ 10602_Muscle, scapulae, left
+10603 10603  -1.0500E+00  -90 u=10603  VOL=8.7431E+01  $ 10603_Muscle, scapulae, right
+10604 10604  -1.0500E+00  -90 u=10604  VOL=4.7645E+02  $ 10604_Muscle, humeri, left
+10605 10605  -1.0500E+00  -90 u=10605  VOL=5.2270E+02  $ 10605_Muscle, humeri, right
+10606 10606  -1.0500E+00  -90 u=10606  VOL=3.4065E+02  $ 10606_Muscle, ulnae and radii, left
+10607 10607  -1.0500E+00  -90 u=10607  VOL=3.9698E+02  $ 10607_Muscle, ulnae and radii, right
+10608 10608  -1.0500E+00  -90 u=10608  VOL=7.8756E+01  $ 10608_Muscle, Wrists and hand bones, left
+10609 10609  -1.0500E+00  -90 u=10609  VOL=8.8222E+01  $ 10609_Muscle, Wrists and hand bones, right
+10610 10610  -1.0500E+00  -90 u=10610  VOL=2.7603E+03  $ 10610_Muscle, femora, left
+10611 10611  -1.0500E+00  -90 u=10611  VOL=2.8686E+03  $ 10611_Muscle, femora, right
+10612 10612  -1.0500E+00  -90 u=10612  VOL=1.3071E+03  $ 10612_Muscle, tibiae, fibulae, and patellae, left
+10613 10613  -1.0500E+00  -90 u=10613  VOL=1.4650E+03  $ 10613_Muscle, tibiae, fibulae, and patellae, right
+10614 10614  -1.0500E+00  -90 u=10614  VOL=4.3378E+02  $ 10614_Muscle, ankles and foot, left
+10615 10615  -1.0500E+00  -90 u=10615  VOL=4.4155E+02  $ 10615_Muscle, ankles and foot, right
+10616 10616  -1.0500E+00  -90 u=10616  VOL=8.2831E+03  $ 10616_Muscle, head and trunk
+11000 11000  -1.0300E+00  -90 u=11000  VOL=5.1279E-01  $ 11000_Oesophagus wall, 190um
+11001 11001  -1.0300E+00  -90 u=11001  VOL=2.8982E-02  $ 11001_Oesophagus wall, 200um
+11002 11002  -1.0300E+00  -90 u=11002  VOL=2.8598E+01  $ 11002_Oesophagus wall, surface
+11003 11003  -1.0300E+00  -90 u=11003  VOL=1.5719E+00  $ 11003_Oesophagus contents
+11100 11000  -1.0500E+00  -90 u=11100  VOL=5.2383E+00  $ 11100_Ovary, left
+11200 11200  -1.0500E+00  -90 u=11200  VOL=5.2380E+00  $ 11200_Ovary, right
+11300 11300  -1.0400E+00  -90 u=11300  VOL=1.0578E+02  $ 11300_Pancreas
+11600 11600  -9.5000E-01  -90 u=11600  VOL=2.4895E+03  $ 11600_RST, adipose tissue, visceral
+11601 11601  -9.5000E-01  -90 u=11601  VOL=1.3351E+04  $ 11601_RST, adipose tissue, subcutaneous
+12000 12000  -1.0300E+00  -90 u=12000  VOL=3.7145E+00  $ 12000_Salivary glands, sublingual, left
+12001 12001  -1.0300E+00  -90 u=12001  VOL=8.7919E+00  $ 12001_Salivary glands, submaxillary, left
+12002 12002  -1.0300E+00  -90 u=12002  VOL=1.8073E+01  $ 12002_Salivary glands, parotid, left
+12100 12100  -1.0300E+00  -90 u=12100  VOL=3.7144E+00  $ 12100_Salivary glands, sublingual, right
+12101 12101  -1.0300E+00  -90 u=12101  VOL=8.7918E+00  $ 12101_Salivary glands, submaxillary, right
+12102 12102  -1.0300E+00  -90 u=12102  VOL=1.7108E+01  $ 12102_Salivary glands, parotid, right
+12200 12200  -1.0900E+00  -90 u=12200  VOL=7.3690E+01  $ 12200_Skin, insensitive, surface(1130um)
+12201 12201  -1.0900E+00  -90 u=12201  VOL=1.5103E+03  $ 12201_Skin, insensitive, 100um(1030um)
+12202 12202  -1.0900E+00  -90 u=12202  VOL=7.3634E+01  $ 12202_Skin, sensitive, 50um(1080um)
+12700 12700  -1.0600E+00  -90 u=12700  VOL=1.1321E+02  $ 12700_Spleen
+12800 12800  -2.7500E+00  -90 u=12800  VOL=7.7498E+00  $ 12800_Teeth, upper
+12801 12801  -2.7500E+00  -90 u=12801  VOL=2.5194E-02  $ 12801_Teeth, retention region, upper
+12802 12802  -2.7500E+00  -90 u=12802  VOL=8.6935E+00  $ 12802_Teeth, lower
+12803 12803  -2.7500E+00  -90 u=12803  VOL=2.5926E-02  $ 12803_Teeth, retention region, lower
+13100 13100  -1.0300E+00  -90 u=13100  VOL=2.8157E+01  $ 13100_Thymus
+13200 13200  -1.0500E+00  -90 u=13200  VOL=1.6190E+01  $ 13200_Thyroid
+13300 13300  -1.0500E+00  -90 u=13300  VOL=1.5169E+00  $ 13300_Tongue, surface
+13301 13301  -1.0500E+00  -90 u=13301  VOL=4.6989E+01  $ 13301_Tongue, surface, 200um
+13700 13700  -1.0400E+00  -90 u=13700  VOL=2.6827E+01  $ 13700_Urinary bladder wall
+13701 13701  -1.0400E+00  -90 u=13701  VOL=1.2673E+00  $ 13701_Urinary bladder wall, 116um
+13702 13702  -1.0400E+00  -90 u=13702  VOL=7.5833E-01  $ 13702_Urinary bladder wall, 185um
+13800 13800  -1.0300E+00  -90 u=13800  VOL=8.2524E+01  $ 13800_Urinary bladder contents
+13900 13900  -1.0200E+00  -90 u=13900  VOL=6.8627E+01  $ 13900_Uterus
+14000 14000  -1.2040E-03  -90 u=14000  VOL=5.9247E+00  $ 14000_ET1 contents, left, 0um(air)
+14001 14001  -1.2040E-03  -90 u=14001  VOL=5.9259E+00  $ 14001_ET1 contents, right, 0um(air)
+14002 14002  -1.2040E-03  -90 u=14002  VOL=9.7157E+01  $ 14002_ET2 contents, -15um(air)
+14003 14003  -1.2040E-03  -90 u=14003  VOL=1.5737E+01  $ 14003_Trachea contents (air)
+14004 14004  -1.2040E-03  -90 u=14004  VOL=1.5656E+01  $ 14004_BB1 contents, -11um(air)
