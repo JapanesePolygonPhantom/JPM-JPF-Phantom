@@ -17,3 +17,4 @@ Licensed under the [MIT](https://github.com/JapanesePolygonPhantom/JPM-JPF-Phant
 ## Link
 
 [Research Group for Radiation Transport Analysis, Nuclear Science and Engineering Center, Japan Atomic Energy Agency](https://nsec.jaea.go.jp/ers/radiation/en/rpro/index.htm)
+[Press release by Japan Atomic Energy Agency on October 25, 2024 (Only in Japanese).](https://www.jaea.go.jp/02/press2024/p24102502/)
