@@ -96,31 +96,31 @@ Kd 0.42320 0.33920 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 500_Oral mucosa, tongue
+newmtl 500_Oral_mucosa_tongue
 Ka 0.00000 0.60000 0.44220
 Kd 0.00000 0.80000 0.58960
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 501_Oral mucosa, mouth floor
+newmtl 501_Oral_mucosa_mouth_floor
 Ka 0.00000 0.60000 0.44220
 Kd 0.00000 0.80000 0.58960
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 600_Oral mucosa, upper lips and cheeks
+newmtl 600_Oral_mucosa_upper_lips_cheeks
 Ka 0.00000 0.60000 0.44220
 Kd 0.00000 0.80000 0.58960
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 601_Oral mucosa, lower lips and cheeks
+newmtl 601_Oral_mucosa_lower_lips_cheeks
 Ka 0.00000 0.60000 0.44220
 Kd 0.00000 0.80000 0.58960
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 700_Trachea
+newmtl 700_Trachea_wall
 Ka 0.00000 0.58560 0.60000
 Kd 0.00000 0.78080 0.80000
 Ks 0.00000 0.00000 0.00000
@@ -180,49 +180,49 @@ Kd 0.80000 0.00000 0.04080
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 1400_Humeri, upper, left
+newmtl 1400_Humeri_upper, left
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 1401_Humeri, upper, right
+newmtl 1401_Humeri_upper, right
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 1700_Humeri, lower, left
+newmtl 1700_Humeri_lower, left
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 1701_Humeri, lower, right
+newmtl 1701_Humeri_lower, right
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 1900_Ulnae and radii, left
+newmtl 1900_Ulnae_radii, left
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 1901_Ulnae and radii, right
+newmtl 1901_Ulnae_radii, right
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 2200_Wrists and hand bones, left
+newmtl 2200_Wrist_and_hand_bone, left
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 2201_Wrists and hand bones, right
+newmtl 2201_Wrist_and_hand_bone, right
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
@@ -240,55 +240,55 @@ Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 2600_Cranium
+newmtl 2600_Crainum
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 2900_Femora, upper, left
+newmtl 2900_Femora_upper_half, left
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 2901_Femora, upper, right
+newmtl 2901_Femora_upper_half, right
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 3200_Femora, lower, left
+newmtl 3200_Femora_lower_half, left
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 3201_Femora, lower, right
+newmtl 3201_Femora_lower_half, right
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 3400_Tibiae, fibulae, and patellae, left
+newmtl 3400_Tibiae_fibulae_patellae, left
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 3401_Tibiae, fibulae, and patellae, right
+newmtl 3401_Tibiae_fibulae_patellae, right
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 3700_Ankles and foot, left
+newmtl 3700_Ankle_and_foot, left
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 3701_Ankles and foot, right
+newmtl 3701_Ankle_and_foot, right
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
@@ -306,145 +306,145 @@ Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4300_Rib, left, No.01
+newmtl 4300_Rib, left_No.01
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4301_Rib, right, No.01
+newmtl 4301_Rib, right_No.01
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4302_Rib, left, No.02
+newmtl 4302_Rib, left_No.02
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4303_Rib, right, No.02
+newmtl 4303_Rib, right_No.02
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4304_Rib, left, No.03
+newmtl 4304_Rib, left_No.03
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4305_Rib, right, No.03
+newmtl 4305_Rib, right_No.03
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4306_Rib, left, No.04
+newmtl 4306_Rib, left_No.04
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4307_Rib, right, No.04
+newmtl 4307_Rib, right_No.04
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4308_Rib, left, No.05
+newmtl 4308_Rib, left_No.05
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4309_Rib, right, No.05
+newmtl 4309_Rib, right_No.05
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4310_Rib, left, No.06
+newmtl 4310_Rib, left_No.06
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4311_Rib, right, No.06
+newmtl 4311_Rib, right_No.06
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4312_Rib, left, No.07
+newmtl 4312_Rib, left_No.07
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4313_Rib, right, No.07
+newmtl 4313_Rib, right_No.07
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4314_Rib, left, No.08
+newmtl 4314_Rib, left_No.08
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4315_Rib, right, No.08
+newmtl 4315_Rib, right_No.08
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4316_Rib, left, No.09
+newmtl 4316_Rib, left_No.09
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4317_Rib, right, No.09
+newmtl 4317_Rib, right_No.09
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4318_Rib, left, No.10
+newmtl 4318_Rib, left_No.10
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4319_Rib, right, No.10
+newmtl 4319_Rib, right_No.10
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4320_Rib, left, No.11
+newmtl 4320_Rib, left_No.11
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4321_Rib, right, No.11
+newmtl 4321_Rib, right_No.11
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4322_Rib, left, No.12
+newmtl 4322_Rib, left_No.12
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 4323_Rib, right, No.12
+newmtl 4323_Rib, right_No.12
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
@@ -492,19 +492,19 @@ Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 5600_Os hyoideum
+newmtl 5600_Os_hyoideum
 Ka 0.60000 0.60000 0.60000
 Kd 0.80000 0.80000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 5900_Auricular cartilage, left
+newmtl 5900_Left_auricular_cartilage
 Ka 0.60000 0.00000 0.54840
 Kd 0.80000 0.00000 0.73120
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 5901_Auricular cartilage, right
+newmtl 5901_Right_auricular_cartilage
 Ka 0.60000 0.00000 0.54840
 Kd 0.80000 0.00000 0.73120
 Ks 0.00000 0.00000 0.00000
@@ -552,7 +552,7 @@ Kd 0.19120 0.80000 0.29840
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 6700_Cornea and sclera, left
+newmtl 6700_Cornea, sclera, left
 Ka 0.60000 0.60000 0.00000
 Kd 0.80000 0.80000 0.00000
 Ks 0.00000 0.00000 0.00000
@@ -570,7 +570,7 @@ Kd 0.41760 0.56800 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 6800_Eye lens, sensitive, right
+newmtl 6800_Eye_lens, sensitive, right
 Ka 0.60000 0.13860 0.13860
 Kd 0.80000 0.18480 0.18480
 Ks 0.00000 0.00000 0.00000
@@ -582,7 +582,7 @@ Kd 0.19120 0.80000 0.29840
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 6900_Cornea and sclera, right
+newmtl 6900_Cornea, sclera, right
 Ka 0.60000 0.60000 0.00000
 Kd 0.80000 0.80000 0.00000
 Ks 0.00000 0.00000 0.00000
@@ -816,49 +816,49 @@ Kd 0.00000 0.80000 0.62400
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10400_Lymphatic nodes, upper arm, left
+newmtl 10400_Lymphatic_nodes_left_upper_arm
 Ka 0.00000 0.60000 0.46800
 Kd 0.00000 0.80000 0.62400
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10401_Lymphatic nodes, upper arm, right
+newmtl 10401_Lymphatic_nodes_right_upper_arm
 Ka 0.00000 0.60000 0.46800
 Kd 0.00000 0.80000 0.62400
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10402_Lymphatic nodes, forearm, left
+newmtl 10402_Lymphatic_nodes_left_forearm
 Ka 0.00000 0.60000 0.46800
 Kd 0.00000 0.80000 0.62400
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10403_Lymphatic nodes, forearm. right
+newmtl 10403_Lymphatic_nodes_right_forearm
 Ka 0.00000 0.60000 0.46800
 Kd 0.00000 0.80000 0.62400
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10500_Lymphatic nodes, thigh, left
+newmtl 10500_Lymphatic_nodes, left_thigh
 Ka 0.00000 0.60000 0.46800
 Kd 0.00000 0.80000 0.62400
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10501_Lymphatic nodes, thigh, right
+newmtl 10501_Lymphatic_nodes, right_thigh
 Ka 0.00000 0.60000 0.46800
 Kd 0.00000 0.80000 0.62400
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10502_Lymphatic nodes, legs left
+newmtl 10502_Lymphatic_nodes, left legs
 Ka 0.00000 0.60000 0.46800
 Kd 0.00000 0.80000 0.62400
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10503_Lymphatic nodes, legs, right
+newmtl 10503_Lymphatic_nodes, right legs
 Ka 0.00000 0.60000 0.46800
 Kd 0.00000 0.80000 0.62400
 Ks 0.00000 0.00000 0.00000
@@ -900,25 +900,25 @@ Kd 0.08480 0.00000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10606_Muscle, ulnae and radii, left
+newmtl 10606_Muscle, ulnae_radii, left
 Ka 0.06360 0.00000 0.60000
 Kd 0.08480 0.00000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10607_Muscle, ulnae and radii, right
+newmtl 10607_Muscle, ulnae_radii, right
 Ka 0.06360 0.00000 0.60000
 Kd 0.08480 0.00000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10608_Muscle, wrists and hand bones, left
+newmtl 10608_Muscle, wrist_hand, left
 Ka 0.06360 0.00000 0.60000
 Kd 0.08480 0.00000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10609_Muscle, wrists and hand bones, right
+newmtl 10609_Muscle, wrist_hand, right
 Ka 0.06360 0.00000 0.60000
 Kd 0.08480 0.00000 0.80000
 Ks 0.00000 0.00000 0.00000
@@ -936,31 +936,31 @@ Kd 0.08480 0.00000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10612_Muscle, tibiae, fibulae, and patellae, left
+newmtl 10612_Muscle, tibiae_fibulae_patellae, left
 Ka 0.06360 0.00000 0.60000
 Kd 0.08480 0.00000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10613_Muscle, tibiae, fibulae, and patellae, right
+newmtl 10613_Muscle, tibiae_fibulae_patellae, right
 Ka 0.06360 0.00000 0.60000
 Kd 0.08480 0.00000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10614_Muscle, ankles and foot, left
+newmtl 10614_Muscle, ankle_foot, left
 Ka 0.06360 0.00000 0.60000
 Kd 0.08480 0.00000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10615_Muscle, ankles and foot, right
+newmtl 10615_Muscle, ankle_foot, right
 Ka 0.06360 0.00000 0.60000
 Kd 0.08480 0.00000 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 10616_Muscle, head and trunk
+newmtl 10616_Muscle, head_trunk
 Ka 0.06360 0.00000 0.60000
 Kd 0.08480 0.00000 0.80000
 Ks 0.00000 0.00000 0.00000
@@ -1002,67 +1002,67 @@ Kd 0.80000 0.46720 0.76560
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 11600_RST, adipose tissue, visceral
+newmtl 11600_RST, Visceral_adipose_tissue
 Ka 0.60000 0.54120 0.38340
 Kd 0.80000 0.72160 0.51120
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 11601_RST, adipose tissue, subcutaneous
+newmtl 11601_RST, Subcutaneous_adipose_tissue
 Ka 0.60000 0.54120 0.38340
 Kd 0.80000 0.72160 0.51120
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12000_Salivary glands, sublingual. left
+newmtl 12000_Salivary glands, left sublingual
 Ka 0.60000 0.30120 0.00000
 Kd 0.80000 0.40160 0.00000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12001_Salivary glands, submaxillary, left
+newmtl 12001_Salivary glands, left submaxillary
 Ka 0.60000 0.00000 0.54840
 Kd 0.80000 0.00000 0.73120
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12002_Salivary glands, parotid, left
+newmtl 12002_Salivary glands, left parotid
 Ka 0.38580 0.55980 0.60000
 Kd 0.51440 0.74640 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12100_Salivary glands, sublingual, right
+newmtl 12100_Salivary glands, right sublingual
 Ka 0.60000 0.30120 0.00000
 Kd 0.80000 0.40160 0.00000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12101_Salivary glands, submaxillary, right
+newmtl 12101_Salivary glands, right submaxillary
 Ka 0.60000 0.00000 0.54840
 Kd 0.80000 0.00000 0.73120
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12102_Salivary glands, parotid, right
+newmtl 12102_Salivary glands, right parotid
 Ka 0.38580 0.55980 0.60000
 Kd 0.51440 0.74640 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12200_Skin, insensitive, surface (1280um)
+newmtl 12200_Skin, insensitive, surface
 Ka 0.60000 0.54120 0.38340
 Kd 0.80000 0.72160 0.51120
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12201_Skin, insensitive, 100um (1180um)
+newmtl 12201_Skin, sensitive, 50um
 Ka 0.60000 0.54120 0.38340
 Kd 0.80000 0.72160 0.51120
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12202_Skin, sensitive, 50um (1230um)
+newmtl 12202_Skin, insensitive, 100um
 Ka 0.60000 0.54120 0.38340
 Kd 0.80000 0.72160 0.51120
 Ks 0.00000 0.00000 0.00000
@@ -1074,25 +1074,25 @@ Kd 0.80000 0.00000 0.73120
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12800_Teeth, upper
+newmtl 12800_Upper_teeth
 Ka 0.28260 0.28260 0.28260
 Kd 0.37680 0.37680 0.37680
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12801_Teeth, retention region, upper
+newmtl 12801_Upper_teeth_retention
 Ka 0.28260 0.28260 0.28260
 Kd 0.37680 0.37680 0.37680
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12802_Teeth, lower
+newmtl 12802_Lower_teeth
 Ka 0.28260 0.28260 0.28260
 Kd 0.37680 0.37680 0.37680
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 12803_Teeth, retention region, lower
+newmtl 12803_Lower_teeth_retention
 Ka 0.28260 0.28260 0.28260
 Kd 0.37680 0.37680 0.37680
 Ks 0.00000 0.00000 0.00000
@@ -1134,25 +1134,25 @@ Kd 0.00000 0.80000 0.58960
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 13700_Urinary bladder wall
+newmtl 13700_Urinary_bladder_wall
 Ka 0.38580 0.55980 0.60000
 Kd 0.51440 0.74640 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 13701_Urinary bladder wall, 118um
+newmtl 13701_Urinary_bladder_wall_118um
 Ka 0.38580 0.55980 0.60000
 Kd 0.51440 0.74640 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 13702, Urinary bladder wall, 193um
+newmtl 13702_Urinary_bladder_wall_193um
 Ka 0.38580 0.55980 0.60000
 Kd 0.51440 0.74640 0.80000
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 13800_Urinary bladder contents
+newmtl 13800_Urinary_bladder_contents
 Ka 0.59280 0.60000 0.43500
 Kd 0.79040 0.80000 0.58000
 Ks 0.00000 0.00000 0.00000
@@ -1170,13 +1170,13 @@ Kd 0.79040 0.80000 0.58320
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 14002_ET2 contents, -15um (air)
+newmtl 14002_ET2 contents, 15um (air)
 Ka 0.59280 0.60000 0.43740
 Kd 0.79040 0.80000 0.58320
 Ks 0.00000 0.00000 0.00000
 Ns 5.00000
 
-newmtl 14003_Trachea contents (air)
+newmtl 14003_Trachea_air
 Ka 0.59280 0.60000 0.43740
 Kd 0.79040 0.80000 0.58320
 Ks 0.00000 0.00000 0.00000
